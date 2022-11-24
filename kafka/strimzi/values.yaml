@@ -34,7 +34,7 @@ broker:
   
   resources:
     cpu:      200m                                                                                                         
-    memory:   1Gi
+    memory:   512Mi
 
 topic:
   autoCreate: true
