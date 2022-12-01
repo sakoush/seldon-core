@@ -30,7 +30,7 @@ export default function (config) {
     const modelNameWithVersion = modelName + getVersionSuffix(config)  // first version
 
     const rand = Math.random()
-    if (rand > 1) {
+    if (rand > 0.5) {
         doInfer(modelName, modelNameWithVersion, config, true)
     } else {
         doInfer(modelName, modelNameWithVersion, config, false)
