@@ -12,6 +12,7 @@ export let options = {
     },
     setupTimeout: '6000s',
     duration: '30m',
+    teardownTimeout: '6000s',
 }
 
 export function setup() {
@@ -29,7 +30,7 @@ export default function (config) {
     const modelNameWithVersion = modelName + getVersionSuffix(config)  // first version
 
     const rand = Math.random()
-    if (rand > 0.5) {
+    if (rand > 1) {
         doInfer(modelName, modelNameWithVersion, config, true)
     } else {
         doInfer(modelName, modelNameWithVersion, config, false)
