@@ -11,5 +11,5 @@ kind: Server
 metadata:
   name: triton
 spec:
-  replicas: 1
+  replicas: 3
   serverConfig: triton

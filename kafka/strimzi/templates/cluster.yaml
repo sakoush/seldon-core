@@ -46,6 +46,11 @@ spec:
     template:
       pod:
         tmpDirSizeLimit: {{ .Values.broker.tmpDirSizeLimit }}
+        tolerations:
+        - key: "SIZE"
+          operator: "Equal"
+          value: "CPU-LARGE"
+          effect: "NoSchedule"
     storage:
       type: jbod
       volumes:

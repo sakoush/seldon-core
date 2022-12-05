@@ -6,7 +6,7 @@ metrics:
   enabled: true
 
 broker:
-  replicas: 3
+  replicas: 5
 
   plaintext:
     enabled: true
@@ -28,13 +28,13 @@ broker:
 
   interBrokerProtocolVersion: "3.3"
 
-  tmpDirSizeLimit: 100Mi
+  tmpDirSizeLimit: 1Gi
 
   pvcSize: 100Gi
   
   resources:
-    cpu:      200m                                                                                                         
-    memory:   1Gi
+    cpu:      4                                                                                                         
+    memory:   32Gi
 
 topic:
   autoCreate: true
