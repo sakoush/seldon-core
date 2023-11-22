@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: seldon-server
+      app.kubernetes.io/name: seldon-server
   namespaceSelector:
     matchNames: []
     any: false
   podMetricsEndpoints:
-  - port: metrics
+  - targetPort: 9006
     interval: 15s
     path: /metrics
 
