@@ -9,7 +9,6 @@ on:
 jobs:
   licenses:
     runs-on: ubuntu-latest
-    if: github.repository == 'SeldonIO/seldon-core' # Do not run this on forks.
     steps:
       - name: Get github access token
         run: |
