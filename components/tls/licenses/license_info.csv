@@ -111,7 +111,6 @@ hashicorp/memberlist,https://github.com/hashicorp/memberlist/blob/master/LICENSE
 hashicorp/serf,https://github.com/hashicorp/serf/blob/master/LICENSE,Mozilla Public License 2.0,https://raw.githubusercontent.com/hashicorp/serf/master/LICENSE
 hpcloud/tail,https://github.com/hpcloud/tail/blob/master/LICENSE.txt,MIT License,https://raw.githubusercontent.com/hpcloud/tail/master/LICENSE.txt
 ianlancetaylor/demangle,https://github.com/ianlancetaylor/demangle/blob/master/LICENSE,BSD 3-Clause "New" or "Revised" License,https://raw.githubusercontent.com/ianlancetaylor/demangle/master/LICENSE
-imdario/mergo,https://github.com/darccio/mergo/blob/master/LICENSE,BSD 3-Clause "New" or "Revised" License,https://raw.githubusercontent.com/darccio/mergo/master/LICENSE
 inconshreveable/mousetrap,https://github.com/inconshreveable/mousetrap/blob/master/LICENSE,Apache License 2.0,https://raw.githubusercontent.com/inconshreveable/mousetrap/master/LICENSE
 jessevdk/go-flags,https://github.com/jessevdk/go-flags/blob/master/LICENSE,BSD 3-Clause "New" or "Revised" License,https://raw.githubusercontent.com/jessevdk/go-flags/master/LICENSE
 jonboulle/clockwork,https://github.com/jonboulle/clockwork/blob/master/LICENSE,Apache License 2.0,https://raw.githubusercontent.com/jonboulle/clockwork/master/LICENSE
