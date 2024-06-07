@@ -10218,7 +10218,6 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
 --------------------------------------------------------------------------------
 gregjones/httpcache  MIT License  https://github.com/gregjones/httpcache/blob/master/LICENSE.txt
 --------------------------------------------------------------------------------
@@ -24093,7 +24092,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------------------
-santhosh-tekuri/jsonschema  Apache License 2.0  https://github.com/santhosh-tekuri/jsonschema/blob/master/LICENSE
+santhosh-tekuri/jsonschema  Apache License 2.0  https://github.com/santhosh-tekuri/jsonschema/blob/boon/LICENSE
 --------------------------------------------------------------------------------
 
                                  Apache License
