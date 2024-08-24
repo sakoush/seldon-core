@@ -310,7 +310,6 @@ cheggaaa/pb
 go-errgo/errgo
 go-inf/inf
 go-ini/ini
-go-resty/resty
 square/go-jose
 go-tomb/tomb
 go-yaml/yaml
