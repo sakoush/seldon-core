@@ -8,15 +8,59 @@ export const options = {
     noVUConnectionReuse: true,
     noConnectionReuse: true,
     scenarios: {
-        constant_request_rate: {
-            executor: 'constant-arrival-rate',
-            rate: getConfig().requestRate,
+        variable_request_rate: {
+            executor: 'ramping-arrival-rate',
+            startRate: getConfig().requestRate,
             timeUnit: '1s',
-            duration: getConfig().constantRateDurationSeconds.toString()+'s',
+            //duration: getConfig().constantRateDurationSeconds.toString()+'s',
+            stages: [
+                { target: 200, duration: '10s' },
+        
+                { target: 10, duration: '10s' },
+        
+                { target: 200, duration: '10s' },
+
+                { target: 10, duration: '10s' },
+
+                { target: 200, duration: '10s' },
+        
+                { target: 10, duration: '10s' },
+        
+                { target: 300, duration: '10s' },
+
+                { target: 10, duration: '10s' },
+
+                { target: 200, duration: '10s' },
+        
+                { target: 10, duration: '10s' },
+
+                { target: 200, duration: '10s' },
+        
+                { target: 10, duration: '10s' },
+        
+                { target: 300, duration: '10s' },
+
+                { target: 10, duration: '10s' },
+
+                { target: 300, duration: '10s' },
+        
+                { target: 10, duration: '10s' },
+        
+                { target: 200, duration: '10s' },
+
+                { target: 10, duration: '10s' },
+
+                { target: 200, duration: '10s' },
+        
+                { target: 10, duration: '10s' },
+        
+            ],
             preAllocatedVUs: 10, // how large the initial pool of VUs would be
             maxVUs: 2000, // if the preAllocatedVUs are not enough, we can initialize more
         },
     },
+    setupTimeout: '6000s',
+    teardownTimeout: '6000s',
 };
 
 export function setup() {

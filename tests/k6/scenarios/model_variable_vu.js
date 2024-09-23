@@ -2,22 +2,31 @@ import {inferHttp, inferGrpc, connectV2Grpc, disconnectV2Grpc} from '../componen
 import {generateModel} from '../components/model.js'
 import {getConfig} from '../components/settings.js'
 import {randomIntBetween} from 'https://jslib.k6.io/k6-utils/1.2.0/index.js';
-import { sleep } from 'k6';
 
 export const options = {
-    noVUConnectionReuse: true,
-    noConnectionReuse: true,
+    discardResponseBodies: true,
     scenarios: {
-        constant_request_rate: {
-            executor: 'constant-arrival-rate',
-            rate: getConfig().requestRate,
-            timeUnit: '1s',
-            duration: getConfig().constantRateDurationSeconds.toString()+'s',
-            preAllocatedVUs: 10, // how large the initial pool of VUs would be
-            maxVUs: 2000, // if the preAllocatedVUs are not enough, we can initialize more
-        },
+      contacts: {
+        executor: 'ramping-vus',
+        startVUs: 0,
+        stages: [
+          { duration: '2s', target: 10 },
+          { duration: '2s', target: 15 },
+          { duration: '2s', target: 22 },
+          { duration: '2s', target: 10 },
+          { duration: '2s', target: 15 },
+          { duration: '2s', target: 10 },
+          { duration: '2s', target: 20 },
+          { duration: '2s', target: 15 },
+          { duration: '2s', target: 12 },
+          { duration: '2s', target: 20 },
+          { duration: '2s', target: 15 },
+          { duration: '2s', target: 10 },
+        ],
+        gracefulRampDown: '0s',
+      },
     },
-};
+  };
 
 export function setup() {
     return getConfig()
@@ -49,5 +58,4 @@ export default function (config) {
         }
         disconnectV2Grpc()
     }
-    sleep(randomIntBetween(1, 5));
 }
