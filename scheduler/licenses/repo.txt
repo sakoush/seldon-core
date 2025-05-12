@@ -304,11 +304,7 @@ xiang90/probing
 xordataexchange/crypt
 yuin/goldmark
 https://github.com/golang/go
-alecthomas/kingpin
-go-check/check
 cheggaaa/pb
-go-errgo/errgo
-go-inf/inf
 go-ini/ini
 go-resty/resty
 square/go-jose
