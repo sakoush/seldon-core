@@ -1,5 +1,4 @@
 seldonio/seldon-core
-None
 https://gotools.org/dmitri.shuralyov.com/gpu/mtl
 Azure/go-ansiterm
 Azure/go-autorest
@@ -303,6 +302,7 @@ xdg-go/stringprep
 xiang90/probing
 xordataexchange/crypt
 yuin/goldmark
+None
 https://github.com/golang/go
 alecthomas/kingpin
 go-check/check
