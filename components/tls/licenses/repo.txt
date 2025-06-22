@@ -1,5 +1,4 @@
 seldonio/seldon-core
-None
 https://gotools.org/dmitri.shuralyov.com/gpu/mtl
 Azure/go-ansiterm
 Azure/go-autorest
@@ -207,3 +206,4 @@ go-resty/resty
 square/go-jose
 go-tomb/tomb
 go-yaml/yaml
+None
