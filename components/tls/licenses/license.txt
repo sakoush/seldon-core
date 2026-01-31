@@ -913,7 +913,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --------------------------------------------------------------------------------
 armon/go-metrics  MIT License  https://github.com/hashicorp/go-metrics/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2013 HashiCorp, Inc.
+Copyright IBM Corp. 2013, 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -1732,7 +1732,7 @@ SOFTWARE.
 
 
 --------------------------------------------------------------------------------
-chzyer/readline  MIT License  https://github.com/chzyer/readline/blob/master/LICENSE
+chzyer/readline  MIT License  https://github.com/chzyer/readline/blob/main/LICENSE
 --------------------------------------------------------------------------------
 The MIT License (MIT)
 
@@ -3049,7 +3049,7 @@ coreos/etcd  Apache License 2.0  https://github.com/etcd-io/etcd/blob/main/LICEN
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2013 The etcd Authors
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -5250,7 +5250,6 @@ go-logr/zapr  Apache License 2.0  https://github.com/go-logr/zapr/blob/master/LI
 --------------------------------------------------------------------------------
 go-openapi/jsonpointer  Apache License 2.0  https://github.com/go-openapi/jsonpointer/blob/master/LICENSE
 --------------------------------------------------------------------------------
-
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -8442,34 +8441,29 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
-gorilla/websocket  BSD 3-Clause "New" or "Revised" License  https://github.com/gorilla/websocket/blob/main/LICENSE
+gorilla/websocket  BSD 2-Clause "Simplified" License  https://github.com/gorilla/websocket/blob/main/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2023 The Gorilla Authors. All rights reserved.
+Copyright (c) 2013 The Gorilla WebSocket Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
+modification, are permitted provided that the following conditions are met:
 
-	 * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-	 * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-	 * Neither the name of Google Inc. nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
+  Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
@@ -9020,7 +9014,7 @@ TITLE.
 --------------------------------------------------------------------------------
 hashicorp/errwrap  Mozilla Public License 2.0  https://github.com/hashicorp/errwrap/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2014 HashiCorp, Inc.
+Copyright IBM Corp. 2014, 2025
 
 Mozilla Public License, version 2.0
 
@@ -9380,7 +9374,7 @@ Exhibit B - “Incompatible With Secondary Licenses” Notice
 --------------------------------------------------------------------------------
 hashicorp/go-cleanhttp  Mozilla Public License 2.0  https://github.com/hashicorp/go-cleanhttp/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2015 HashiCorp, Inc.
+Copyright IBM Corp. 2015, 2025
 
 Mozilla Public License, version 2.0
 
@@ -9749,7 +9743,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 --------------------------------------------------------------------------------
 hashicorp/go-immutable-radix  Mozilla Public License 2.0  https://github.com/hashicorp/go-immutable-radix/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2015 HashiCorp, Inc.
+Copyright IBM Corp. 2015, 2025
 
 Mozilla Public License, version 2.0
 
@@ -10144,7 +10138,7 @@ SOFTWARE.
 --------------------------------------------------------------------------------
 hashicorp/go-multierror  Mozilla Public License 2.0  https://github.com/hashicorp/go-multierror/blob/main/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2014 HashiCorp, Inc.
+Copyright IBM Corp. 2014, 2025
 
 Mozilla Public License, version 2.0
 
@@ -10503,7 +10497,7 @@ Exhibit B - “Incompatible With Secondary Licenses” Notice
 --------------------------------------------------------------------------------
 hashicorp/go-rootcerts  Mozilla Public License 2.0  https://github.com/hashicorp/go-rootcerts/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2016 HashiCorp, Inc.
+Copyright IBM Corp. 2016, 2025
 
 Mozilla Public License, version 2.0
 
@@ -11251,7 +11245,7 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 --------------------------------------------------------------------------------
 hashicorp/go-syslog  MIT License  https://github.com/hashicorp/go-syslog/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2014 HashiCorp, Inc.
+Copyright IBM Corp. 2014, 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -11273,7 +11267,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --------------------------------------------------------------------------------
 hashicorp/go-uuid  Mozilla Public License 2.0  https://github.com/hashicorp/go-uuid/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2015 HashiCorp, Inc.
+Copyright IBM Corp. 2015, 2025
 
 Mozilla Public License, version 2.0
 
@@ -11673,7 +11667,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 hashicorp/golang-lru  Mozilla Public License 2.0  https://github.com/hashicorp/golang-lru/blob/main/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2014 HashiCorp, Inc.
+Copyright IBM Corp. 2014, 2025
 
 Mozilla Public License, version 2.0
 
@@ -12400,7 +12394,7 @@ Exhibit B - “Incompatible With Secondary Licenses” Notice
 --------------------------------------------------------------------------------
 hashicorp/logutils  Mozilla Public License 2.0  https://github.com/hashicorp/logutils/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2013 HashiCorp, Inc.
+Copyright IBM Corp. 2013, 2025
 
 Mozilla Public License, version 2.0
 
@@ -12760,7 +12754,7 @@ Exhibit B - “Incompatible With Secondary Licenses” Notice
 --------------------------------------------------------------------------------
 hashicorp/mdns  MIT License  https://github.com/hashicorp/mdns/blob/main/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2014 HashiCorp, Inc.
+Copyright IBM Corp. 2014, 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -12782,7 +12776,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 --------------------------------------------------------------------------------
 hashicorp/memberlist  Mozilla Public License 2.0  https://github.com/hashicorp/memberlist/blob/master/LICENSE
 --------------------------------------------------------------------------------
-Copyright (c) 2013 HashiCorp, Inc.
+Copyright IBM Corp. 2013, 2025
 
 Mozilla Public License, version 2.0
 
@@ -13793,7 +13787,7 @@ inconshreveable/mousetrap  Apache License 2.0  https://github.com/inconshreveabl
    limitations under the License.
 
 --------------------------------------------------------------------------------
-jessevdk/go-flags  BSD 3-Clause "New" or "Revised" License  https://github.com/jessevdk/go-flags/blob/master/LICENSE
+jessevdk/go-flags  BSD 3-Clause "New" or "Revised" License  https://github.com/jessevdk/go-flags/blob/main/LICENSE
 --------------------------------------------------------------------------------
 Copyright (c) 2012 Jesse van den Kieboom. All rights reserved.
 Redistribution and use in source and binary forms, with or without
@@ -19047,7 +19041,7 @@ shurcooL/sanitized_anchor_name  MIT License  https://github.com/shurcooL/sanitiz
 --------------------------------------------------------------------------------
 MIT License
 
-Copyright (c) 2015 Dmitri Shuralyov
+Copyright (c) 2014 Dmitri Shuralyov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20317,11 +20311,11 @@ third-party archives.
    limitations under the License.
 
 --------------------------------------------------------------------------------
-go-resty/resty  MIT License  https://github.com/go-resty/resty/blob/v2/LICENSE
+go-resty/resty  MIT License  https://github.com/go-resty/resty/blob/v3/LICENSE
 --------------------------------------------------------------------------------
 The MIT License (MIT)
 
-Copyright (c) 2015-2023 Jeevanandam M., https://myjeeva.com <jeeva@myjeeva.com>
+Copyright (c) 2015-present Jeevanandam M., https://myjeeva.com <jeeva@myjeeva.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
